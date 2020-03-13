@@ -2,7 +2,7 @@ language: node_js
 sudo: false
 dist: trusty
 node_js:
-- v10.16.0
+- v10.18.0
 git:
   depth: 10
 addons:
