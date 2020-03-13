@@ -10,11 +10,12 @@ addons:
   - 39.104.123.222
   - github.com
 install:
-# - sudo apt-get install sshpass
+- sudo apt-get install sshpass
 script:
-- "ls"
-- "pwd"
+- "npm run build"
 deploy:
+  provider: script
+  script: sh -x deploy.sh
   skip_cleanup: true
   on:
     branch: master
