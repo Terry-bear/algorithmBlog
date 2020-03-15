@@ -9,8 +9,7 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "dumi": "^1.0.7"
   },
