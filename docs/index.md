@@ -5,7 +5,7 @@ hero:
   actions:
     - text: 开始
       link: /base
-footer: "© 2018 - 2020  ICP: <a href='http://www.beian.miit.gov.cn/'>黔ICP备19003627号</a>"
+footer: "© 2018 - 2020  ICP: <a href='http://www.beian.miit.gov.cn/'>黔ICP备19003627号</a></br><span id=\"busuanzi_container_site_pv\">本站总访问量<span id=\"busuanzi_value_site_pv\"></span>次</span>"
 ---
 # Hello geeker!
 

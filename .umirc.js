@@ -21,6 +21,10 @@ export default {
       },
     ],
   ],
-  scripts: ['https://v1.cnzz.com/z_stat.php?id=1278653578&web_id=1278653578'],
+  scripts: ['https://s9.cnzz.com/z_stat.php?id=1278687945&web_id=1278687945',
+{
+  src: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",
+  async:""
+}],
   styles: ['a[title=站长统计] { display: none; }'],
 };
