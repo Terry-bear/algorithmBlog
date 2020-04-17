@@ -1,5 +1,5 @@
 /.idea/
-/themes/even/node_modules
-/themes/even/static/*.min.js.map
-/themes/even/static/*.min.css.map
+/themes/loveit/node_modules
+/themes/loveit/static/*.min.js.map
+/themes/loveit/static/*.min.css.map
 /public/
