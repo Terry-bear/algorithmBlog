@@ -64,7 +64,6 @@ enableEmoji = true
   # Comment Config
   [params.comment]
     enable = true
-    # Disqus Comment Config (https://disqus.com/)
     # Gitalk Comment Config (https://github.com/gitalk/gitalk)
     [params.comment.gitalk]
       # LoveIt   v0.1.1
