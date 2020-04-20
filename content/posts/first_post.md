@@ -1,7 +1,8 @@
 ---
 title: "First_post"
 date: 2020-04-17T10:53:12+08:00
-draft: false
+categories: ["统计学"]
+draft: true
 ---
 
 啦啦啦
