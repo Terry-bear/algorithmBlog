@@ -19,4 +19,6 @@ jobs:
       - run: tar -xzvf hugo_0.69.0_Linux-64bit.tar.gz
       - run: pwd && ls -al
       - run: ./hugo
+      - run: chmod 600 ./.circleci/deploy.sh
+      - run: ls -ah ./.circleci/deploy.sh
       - run: ./.circleci/deploy.sh
