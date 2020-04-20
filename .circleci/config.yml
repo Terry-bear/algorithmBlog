@@ -13,10 +13,10 @@ jobs:
           fingerprints:
             - "7b:b1:2f:80:5d:30:37:9a:36:88:16:6a:39:8f:2e:4c"
       - checkout
-      - run: ls
+      - run: pwd && ls -al
       - run: wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.tar.gz
       - run: tar -xzvf hugo_0.69.0_Linux-64bit.tar.gz
-      - run: ls
+      - run: pwd && ls -al
       - run: ./hugo
   deploy:
     machine:
