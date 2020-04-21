@@ -13,6 +13,7 @@
 
 cd ~/.ssh/
 ls -lrt
+cat config
 
 ssh root@39.104.123.222:/opt/dumi
 ls -lrt
