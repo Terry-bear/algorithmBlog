@@ -1,6 +1,6 @@
 #!/bin/bash
 # deploy
-openssl enc -d -aes-256-cbc -in .circleci/secrets.tar.enc -out ~/.ssh/secrets.tar -pass env:$pws
+openssl enc -d -aes-256-cbc -in .circleci/secrets.tar.enc -out ~/.ssh/secrets.tar -pass env:${pws}
 tar xvf ~/.ssh/secrets.tar -C ~/.ssh
 chmod 600 ~/.ssh/my_mac.pem
 chmod 600 ~/.ssh/id_rsa
