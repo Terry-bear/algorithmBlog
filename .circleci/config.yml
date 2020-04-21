@@ -32,13 +32,13 @@ jobs:
             ssh root@39.104.123.222
 
 workflows:
-version: 2
-build-and-deploy:
-  jobs:
-    - build
-    - deploy:
-        requires:
-          - build # only deploy once build job has completed
-        filters:
-          branches:
-            only: master # only deploy on the master branch
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build # only deploy once build job has completed
+          filters:
+            branches:
+              only: master # only deploy on the master branch
