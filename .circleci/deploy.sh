@@ -11,8 +11,8 @@ cp -r public/* alg_Blog
 cd alg_Blog
 git add . && git commit -m "[CI] auto commit" && git push
 
-cd ~/.ssh/
+ssh -i ~/.ssh/id_rsa_03ce13edc73a1b24c09b1d0bdb63861e  root@39.104.123.222:/opt/dumi
 ls -lrt
-# ssh -i ~/.ssh/my_mac.pem  root@39.104.123.222:/opt/dumi
-# rm -rf *
-# git clone git@github.com:Terry-bear/alg_Blog.git -b master .
+git pull
+
+exit 0
