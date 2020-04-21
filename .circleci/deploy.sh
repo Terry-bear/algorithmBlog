@@ -15,6 +15,7 @@ cd ~/.ssh/
 ls -lrt
 cat config
 
+ssh  -o StrictHostKeyChecking=no 39.104.123.222
 ssh root@39.104.123.222
 cd /opt/dumi
 ls -lrt
