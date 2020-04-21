@@ -16,6 +16,7 @@ ls -lrt
 cat config
 
 ssh  -o StrictHostKeyChecking=no 39.104.123.222
+ssh-keyscan -H 39.104.123.222 >> ~/.ssh/known_hosts
 ssh root@39.104.123.222
 cd /opt/dumi
 ls -lrt
