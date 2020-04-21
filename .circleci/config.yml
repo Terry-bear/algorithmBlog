@@ -20,7 +20,8 @@ jobs:
       # - run: tar -xzvf hugo_0.69.0_Linux-64bit.tar.gz
       # - run: pwd && ls -al
       # - run: ./hugo
-      - run: ssh -v root@39.104.123.222
+      # - run: ssh -v root@39.104.123.222
+      - run: ssh  -o StrictHostKeyChecking=no 39.104.123.222
       # - run: bash ./.circleci/deploy.sh
   deploy:
     machine:
