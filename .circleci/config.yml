@@ -13,11 +13,12 @@ jobs:
           fingerprints:
             - "12:f5:c2:06:47:47:63:f6:31:50:7f:61:db:ec:22:e8"
             - "8d:0e:24:db:da:94:0f:51:1d:73:10:db:fc:ee:77:ab"
-      - checkout
-      - run: pwd && ls -al
-      - run: wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.tar.gz
-      - run: sudo apt-get install sshpass
-      - run: tar -xzvf hugo_0.69.0_Linux-64bit.tar.gz
-      - run: pwd && ls -al
-      - run: ./hugo
+      # - checkout
+      # - run: pwd && ls -al
+      # - run: wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.tar.gz
+      # - run: sudo apt-get install sshpass
+      # - run: tar -xzvf hugo_0.69.0_Linux-64bit.tar.gz
+      # - run: pwd && ls -al
+      # - run: ./hugo
+      - run: ssh -v root@39.104.123.222
       - run: bash ./.circleci/deploy.sh
