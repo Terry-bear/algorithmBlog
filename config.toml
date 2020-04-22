@@ -52,11 +52,11 @@ enableEmoji = true
   [params.math]
     enable = true
     # default block delimiter is $$ ... $$ and \\[ ... \\]
-    blockLeftDelimiter = "$$"
-    blockRightDelimiter = "$$"
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
     # default inline delimiter is $ ... $ and \\( ... \\)
-    inlineLeftDelimiter = "$"
-    inlineRightDelimiter = "$"
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
     # KaTeX extension copy_tex
     copyTex = true
     # KaTeX extension mhchem
